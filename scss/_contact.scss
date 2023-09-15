@@ -39,5 +39,20 @@ main {
     .team {
         display: flex;
         flex-direction: column;
+        width: 90%;
+        @media (min-width:400px) {
+                display: flex;
+                flex-direction: column;
+            }
+        .team__profile {
+            display: flex;
+            flex-direction: column;
+            
+            .team__image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
 }
 }
