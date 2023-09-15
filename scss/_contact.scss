@@ -25,13 +25,20 @@ body {
 
 main {
     padding: 0 5%;
-    h1 {
-        text-align: left;
-        font-size: 1.8rem;
-    }
-    div {
-        p {
-            
+    .text {
+        h1 {
+            text-align: left;
+            font-size: 1.8rem;
         }
+        div {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+    .team {
+        display: flex;
+        flex-direction: column;
+            .team__profile
     }
 }
