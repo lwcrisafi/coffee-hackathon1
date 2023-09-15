@@ -12,58 +12,103 @@
     <title>GHCoffee</title>
     <link rel="stylesheet" href="./scss/_footer.scss" />
     <link rel="stylesheet" href="./scss/_origin.scss" />
-    <link rel="stylesheet" href="./scss/_contact.scss">
+    <link rel="stylesheet" href="./scss/_contact.scss" />
   </head>
   <body>
-    <nav class="topnav"></nav>
+    <nav class="nav">
+      <img src="img-menu/logo.svg" alt="Generic Hipster Coffee" />
+
+      <ul class="nav__container">
+        <li><a href="/index.html" class="nav__links">Home</a></li>
+        <li><a href="/menu.html" class="nav__links">Menu</a></li>
+        <li><a href="/coffee.html" class="nav__links">Coffee</a></li>
+        <li><a class="active" href="/contact.html" class="nav__links">Our Story</a></li>
+      </ul>
+    </nav>
     <main>
-        <section class="text">
-            <h1>Our story</h1>
-            <div><p>
-                GHC started as a project of two friends and passionate baristas, John & Don in 2010. 
-Believing as much in the hand of an educated barista as in the innovative equipment of the our ever-growing industry, GHC offers a full spectrum of brewing opportunities - from pour overs to syphon pots to finely executed espresso beverages. Each cup of coffee is made with love, precision and care.
-            </p></div>
-        </section>
-        <section class="team">
-            <div class="team__profile">
-                <div class="team__image"><img src="./img-team/Lauren.jpg" alt="Lauren"></div>
-            </div>
-            <div class="team__profile">
-                <div class="team__image"><img src="./img-team/David.jpg" alt="David"></div>
-            </div>
-            <div class="team__profile">
-                <div class="team__image"><img src="./img-team/Lauren.jpg" alt="Daniel"></div>
-            </div>
-        </section>
-        <section class="form">
-            <h2>Get in touch!</h2>
-            <form>
-                <div class="form__name-tel">
-                    <label for="name">Name</label>
-                    <textarea name="#" id="name" cols="20" rows="2" placeholder="Name and maybe Surname"></textarea>
-                    <label for="tel">Phone</label>
-                    <textarea name="#" id="tel" cols="20" rows="2" placeholder="Phone number"></textarea>
-                </div>
-                <div class="form__email">
-                    <label for="email">Email</label>
-                    <textarea name="#" id="email" cols="40" rows="2" placeholder="email"></textarea>
-                </div>
-                <div class="form__text">
-                    <label for="text">What you want to tell us</label>
-                    <textarea name="#" id="text" cols="40" rows="4" placeholder="Name Surname"></textarea>
-                </div>
-                <div class="button">
-                    <button>Submit</button>
-                </div>
-            </form>
-        </section>
+      <section class="text">
+        <h1>Our story</h1>
+        <div>
+          <p>
+            GHC started as a project of two friends and passionate baristas,
+            John & Don in 2010. Believing as much in the hand of an educated
+            barista as in the innovative equipment of the our ever-growing
+            industry, GHC offers a full spectrum of brewing opportunities - from
+            pour overs to syphon pots to finely executed espresso beverages.
+            Each cup of coffee is made with love, precision and care.
+          </p>
+        </div>
+      </section>
+      <section class="team">
+        <div class="team__profile">
+          <div class="team__image">
+            <img src="./img-team/Lauren.jpg" alt="Lauren" />
+          </div>
+        </div>
+        <div class="team__profile">
+          <div class="team__image">
+            <img src="./img-team/David.jpg" alt="David" />
+          </div>
+        </div>
+        <div class="team__profile">
+          <div class="team__image">
+            <img src="./img-team/Lauren.jpg" alt="Daniel" />
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <h2>Get in touch!</h2>
+        <form>
+          <div class="form__name-tel">
+            <label for="name">Name</label>
+            <textarea
+              name="#"
+              id="name"
+              cols="20"
+              rows="2"
+              placeholder="Name and maybe Surname"
+            ></textarea>
+            <label for="tel">Phone</label>
+            <textarea
+              name="#"
+              id="tel"
+              cols="20"
+              rows="2"
+              placeholder="Phone number"
+            ></textarea>
+          </div>
+          <div class="form__email">
+            <label for="email">Email</label>
+            <textarea
+              name="#"
+              id="email"
+              cols="40"
+              rows="2"
+              placeholder="email"
+            ></textarea>
+          </div>
+          <div class="form__text">
+            <label for="text">What you want to tell us</label>
+            <textarea
+              name="#"
+              id="text"
+              cols="40"
+              rows="4"
+              placeholder="Name Surname"
+            ></textarea>
+          </div>
+          <div class="button">
+            <button>Submit</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="footer">
       <nav class="footer__nav">
-        <a class="active" href="">Home</a>
-        <a href="">Menu</a>
-        <a href="">Coffee</a>
-        <a href="">Our Story</a>
+        <a href="/index.html">Home</a>
+        <a href="/menu.html">Menu</a>
+        <a href="/coffee.html">Coffee</a>
+        <a class="active" href="/contact.html">Our Story</a>
       </nav>
       <div class="footer__hash"><h3>#HIPSTERSMAKECOFFEE</h3></div>
       <div class="footer__links">

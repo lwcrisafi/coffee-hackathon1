@@ -23,6 +23,7 @@ body {
     }
     .footer__nav {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         margin: 0 auto;
         padding: 10vw 5vw 5vw 10vw;
