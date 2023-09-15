@@ -8,7 +8,6 @@ html {
 }
 
 * {
- 
   font-family: $font-family;
   font-weight: 300;
   line-height: 2em;
@@ -44,15 +43,13 @@ nav {
   list-style-type: none;
   justify-content: space-evenly;
 
-  a{
-    color:$hyperlinks-nav;
+  a {
+    color: $hyperlinks-nav;
   }
 
   .nav__links {
     text-decoration: none;
-    
 
-    
     &:hover {
       color: $font-color;
       text-decoration: none;
@@ -66,10 +63,7 @@ main {
   h1 {
     text-align: left;
   }
-  
-    
-  }
-
+}
 
 .menu {
   display: flex;
@@ -86,33 +80,32 @@ main {
   }
 }
 
-.menu__item2  {
-    .menu__float p {
-  @include pricing-1;
-}
+.menu__item2 {
+  .menu__float p {
+    @include pricing-1;
+  }
 }
 
 .menu__item3 {
   .menu__float p {
-  @include pricing-1;
-}
+    @include pricing-1;
+  }
 }
 
-.menu__item4  {
-    .menu__float p {
-  @include pricing-1;
-}
+.menu__item4 {
+  .menu__float p {
+    @include pricing-1;
+  }
 }
 
 .menu__closing img {
-// width: 65vw;
-height: 50vh;
-display: block;
+  // width: 65vw;
+  height: 50vh;
+  display: block;
   margin-left: 5em;
   margin-right: auto;
   padding-left: 18em;
   margin-top: 3em;
-  
 }
 @media (min-width: 768px) {
   nav {
@@ -132,24 +125,14 @@ display: block;
     justify-content: space-around;
     align-items: flex-end;
   }
-//   .menu {
-    // display: flex;
-    // flex-wrap: wrap;
-    // flex-direction: row;
-    // justify-content: space-between;
-   .menu.row {
-// display: flex;
 
-    .column1 {
-         float: left;
-         width: 50%;
+  .menu {
+    .menu__float.column1 {
+      float: left;
+      width: 50%;
     }
-   }
-
-
-    
   }
-
+}
 
 // .menu__coffee{
 //     display: flex;
@@ -177,13 +160,10 @@ display: block;
 //     margin: 100px;
 //     padding: 50px;
 //     background-color: lightcyan;
-      
-      
-     
-    
+
 //     }
 //     .menu__item2 {
-      
+
 //       display: flex;
 //     flex-wrap: wrap;
 //     flex-direction: row;
@@ -191,20 +171,20 @@ display: block;
 //     background-color: aqua;
 //     }
 //     .menu__item3 {
-     
+
 //       display: flex;
 //     flex-wrap: wrap;
 //     flex-direction: row;
 //     justify-content: space-between;
 //       background-color: lightcoral;
-    
+
 //     }
 //     .menu__item4 {
-     
+
 //       display: flex;
 //     flex-wrap: wrap;
 //     flex-direction: row;
 //     justify-content: space-between;
 //     background-color: lightgreen;
-     
+
 //     }
