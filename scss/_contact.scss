@@ -1,0 +1,43 @@
+$large: 500px;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav {
+    height: 30vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+main {
+    padding: 0 5%;
+    .text {
+        h1 {
+            text-align: left;
+            font-size: 1.8rem;
+        }
+        div {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+    .team {
+        display: flex;
+        flex-direction: column;
+}
+}

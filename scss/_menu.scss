@@ -33,14 +33,26 @@ nav {
   }
 }
 
+.active {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .nav__container {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
 
+  a{
+    color:$hyperlinks-nav;
+  }
+
   .nav__links {
     text-decoration: none;
+    
 
+    
     &:hover {
       color: $font-color;
       text-decoration: none;

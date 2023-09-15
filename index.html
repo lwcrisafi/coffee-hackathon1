@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>GHCoffee</title>
-</head>
-<body>
-     <a href="./menu.html">Menu</a>
-    <nav></nav>
-    <main>
-    </main>
-    <footer></footer>
+    <link rel="stylesheet" href="./scss/_footer.scss" />
+    <link rel="stylesheet" href="./scss/_origin.scss" />
+    <link rel="stylesheet" href="./scss/_page1.scss" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="img-menu/logo.svg" alt="Generic Hipster Coffee" />
 
-    
-</body>
+      <ul class="nav__container">
+        <li><a  class="active" href="/index.html" class="nav__links">Home</a></li>
+        <li><a href="/menu.html" class="nav__links">Menu</a></li>
+        <li><a href="/coffee.html" class="nav__links">Coffee</a></li>
+        <li><a href="/contact.html" class="nav__links">Our Story</a></li>
+      </ul>
+    </nav>
+    <main class="main__page1">
+      <section class="headings">
+        <h1>Generic Hipster Coffee</h1>
+        <h2>Specialty coffee, fresh food & local community.</h2>
+      </section>
+      <section class="image">
+        <img src="./img-page1/counter.jpg" alt="caffeteria counter" />
+      </section>
+      <section class="info">
+        <div class="opening-hours">
+          <h3>Opening hours</h3>
+          <p>sunday to thursday: 8 am to 11 pm</p>
+          <p>friday to saturday: 8 am to 1 am</p>
+        </div>
+        <div class="booking">
+          <h3>Book a table</h3>
+          <p>Call +1 415-321-4567</p>
+        </div>
+        <div class="opening-hours">
+          <h3>Address</h3>
+          <p>321 Ivy St.</p>
+          <p>San Francisco, CA 94102</p>
+        </div>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.546366035568!2d-122.4253864328186!3d37.77723362023106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580989a43e76d%3A0x45f1b189ee3b07b3!2s321%20Ivy%20St%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2scz!4v1694774368798!5m2!1sen!2scz"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <a class="active" href="/index.html">Home</a>
+        <a href="/menu.html">Menu</a>
+        <a href="/coffee.html">Coffee</a>
+        <a href="/contact.html">Our Story</a>
+      </nav>
+      <div class="footer__hash"><h3>#HIPSTERSMAKECOFFEE</h3></div>
+      <div class="footer__links">
+        <small
+          >Follow us on <a href="">Twitter</a> and
+          <a href="">Instagram</a></small
+        >
+      </div>
+    </footer>
+  </body>
 </html>
